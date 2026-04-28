@@ -33,7 +33,6 @@ QR2MSE_ICMR2025_llm4rul_phm08/
 ## Key Features
 
 - **LLM-based Approach**: Implements pre-trained language models (GPT4TS) for RUL prediction
-- **Multiple Models**: Supports Transformer, LSTM, CNN, DLinear, PatchTST, and GPT4TS architectures
 - **CMAPSS Dataset**: Trained and evaluated on PHM08 (FD001-FD004) datasets
 - **Comprehensive Evaluation**: RUL prediction with RMSE and scoring metrics
 - **Visualization**: Single-unit and all-unit result plotting with prediction zones (Early/Timely/Late)

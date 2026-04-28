@@ -55,7 +55,7 @@ def get_args():
     parser.add_argument('--channel_mixing_factor', type=int, default=1)
     
     # stat
-    parser.add_argument('--plot_result', type=int, default=1)
+    parser.add_argument('--plot_result', type=int, default=0)
 
     args = parser.parse_args()
 
@@ -94,9 +94,9 @@ if __name__ == "__main__":
                     # plot_unit_id_list = [24,34] # fd001
                     # plot_unit_id_list = [133,150] # fd002
                     # plot_unit_id_list = [92,99] # fd003
-                    plot_unit_id_list = [71,99] # fd004
+                    # plot_unit_id_list = [71,99] # fd004
                     plot_result(true_rul, pre_rul, dataset_uno, 'all', configs.model_name)
-                    # plot_unit_id_list = list(range(1,101)) # 101 260 101 249
+                    plot_unit_id_list = list(range(1,101)) # 101 260 101 249
                     for unit_id in plot_unit_id_list:
                         test_x_i, test_y_i = data_provider_one_unit_data(configs, data_path, dataset_uno, unit_id)
                         if len(test_x_i) == 0:
