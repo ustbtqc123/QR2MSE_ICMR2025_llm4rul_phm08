@@ -15,7 +15,6 @@ QR2MSE_ICMR2025_llm4rul_phm08/
 ├── data_provider/                   # Data loading and processing
 │   ├── __init__.py
 │   ├── data_loader.py              # Data loading utilities for PHM08 dataset
-│   ├── data_loader2.py             # Alternative data loader
 │   ├── cluster_demo.py             # Clustering demonstrations
 │   ├── plot_demo.py                # Plotting utilities
 │   └── score_metric.py             # RUL evaluation metrics
